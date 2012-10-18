@@ -4,7 +4,7 @@
 \let\Tiny=\tiny % Kills two default fontsize beamer warnings
 
 %for adjusting the position of the image in the titles of frames
-%instead of using a custom main theme, we configure the inner and outer themes for our specifics (footline)
+%instead of using a custom main theme, configure the inner and outer themes (footline)
 \setbeamertemplate{footline}{
 	\grouplogo
   	\ublogo
@@ -17,7 +17,8 @@
   	\end{beamercolorbox}
   	\vspace*{0.1cm}
 } 
-%the uni bamberg colors
+
+%the university of bamberg colors
 \definecolor{UBBlue}{RGB}{83,121,170}
 \definecolor{UBBlack}{RGB}{26,23,27}
 \definecolor{UBYellow}{RGB}{255,211,0}
@@ -25,7 +26,7 @@
 \definecolor{UBRed}{RGB}{230,68,79}
 \definecolor{UBGray}{RGB}{135,135,131}
 
-%the usage of the uni colors in special elements
+%the usage of the colors in special elements
 \setbeamercolor{title}{fg=UBBlue}
 \setbeamercolor{frametitle}{fg=UBBlue}
 \setbeamercolor{structure}{fg=UBBlue}
@@ -62,17 +63,17 @@
   \end{textblock}
   } 
   
-   %Colors the given text in our standard blue
+   %Colors the given text in standard blue
   \newcommand{\markB}[1]{%
   	{\color{UBBlue} #1}%
   }
   
-   %Colors the given text in our standard blue and renders it bold
+   %Colors the given text in standard blue and rendered bold
   \newcommand{\markBB}[1]{%
   	{\color{UBBlue} \textbf{#1}}%
   }
   
-   %Colors the given text in our standard blue and renders it italic
+   %Colors the given text in standard blue and rendered italic
   \newcommand{\markBI}[1]{%
   	{\color{UBBlue} \textit{#1}}%
   }
