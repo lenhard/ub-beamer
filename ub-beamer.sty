@@ -36,6 +36,9 @@
 %Do not count the front slide
 \setcounter{framenumber}{0}
 
+
+\def \grouplogofile {images/uni}
+\def \ublogofile {images/uni}
 %to position the group logo at the right-upper corner of a slide
 \newcommand{\grouplogo}{
 	%TPHorizModule and TPVertModule are the factors with which the horizontal and vertical alignment of the following textblock are calculated
@@ -43,7 +46,7 @@
   \setlength{\TPVertModule}{1pt}
   %  textblock{}{x,y}: pos(x) = x * TPHorizModule, pos(y) = y * TPVertModule
   \begin{textblock}{1}(325,6)
-   \includegraphics[width=30pt,height=30pt]{images/vs-logo}
+   \includegraphics[width=30pt,height=30pt]{\grouplogofile}
   \end{textblock}
   } 
   

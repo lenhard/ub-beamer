@@ -1,2 +1,5 @@
 .project
-
+.texlipse
+example.pdf
+example.synctex
+/tmp
