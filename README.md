@@ -8,6 +8,7 @@ Include the ub-beamer.sty file in your path and use it with a `\usepackage` comm
 You also need the pdf file `images/ub-logo.pdf` that contains the logo image to be used on the slides.
 
 Simple usage scenario, also contained in `example.tex`:
+
 	\documentclass{beamer}
 	\usepackage{ub-beamer}
 
