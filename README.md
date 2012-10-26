@@ -44,13 +44,13 @@ The template comes with the following color definitions that conform to the Univ
 It offers several commands for formatting text in blue 
 
 	%Marks text in blue
- 	\marB{some text}
+ 	\markB{some text}
  	
  	%Marks text in blue and bold
- 	\marBB{some text}
+ 	\markBB{some text}
  	
  	%Marks text in blue and italic
- 	\marBI{some text}
+ 	\markBI{some text}
  	
 You can use another logo next to the university logo (your group logo) by redefining a variable.
 This logo will show up in the right upper corner of each slide instead of the university logo.
