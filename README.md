@@ -13,7 +13,7 @@ Simple usage scenario, also contained in `example.tex`:
 	\usepackage{ub-beamer}
 
 	%Meta information
-	\title[DSG Template]{Template for a Beamer Presentation using the University of Bamberg Corporate Design}
+	\title{Template for a Beamer Presentation using the University of Bamberg Corporate Design}
 	\author{J\"org Lenhard}
 	\institute{Distributed Systems Group - WIAI - University of Bamberg}
 	\date{\today}
