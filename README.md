@@ -55,6 +55,6 @@ It offers several commands for formatting text in blue
 You can use another logo next to the university logo (your group logo) by redefining a variable.
 This logo will show up in the right upper corner of each slide instead of the university logo.
 
-	\def \grouplogofile {path/to/logo.pdf}
+	\def \grouplogofile {images/example-group-logo.pdf}
 	
 The template uses square bullet points instead of round ones.
