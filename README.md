@@ -1,6 +1,6 @@
 # ub-beamer
 
-Beamer template inspired by the corporate design of the University of Bamberg
+Beamer template inspired by the corporate design of the [University of Bamberg](http://www.uni-bamberg.de/)
 
 ## Usage
 
